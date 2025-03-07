@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="따뜻하고 소소한 일상 속의 즐거움">
+    <meta property="og:url" content="https://ijikim.github.io/zipsomun.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Zipsomun">
+    <meta property="og:description" content="따뜻하고 소소한 일상 속의 즐거움">
+    <meta property="og:image" content="https://ijikim.github.io/zipsomun.github.io/BrandName.jpg">
+    <title>"집소문", 따뜻하고 소소한 일상 속의 즐거움</title>
+    <link rel="stylesheet" type="text/css" href="zipsomun-master.css">
+</head>
+<body id="zipsomun-loginLayout">
+    <div id="Wrapper">
+        <a href="index.html"><img src="img/icon/zipsomun_logo.png" alt="Logo"></a>
+        <h1><a>LOGIN</a></h1>
+        <div class="login-box">
+            <input type="radio" id="nonmember" name="tabs" checked>
+            <input type="radio" id="member" name="tabs" checked>
+
+            <div class="login-button">
+                <label for="member">회원</label>
+                <label for="nonmember">비회원</label>
+            </div>
+
+            <div class="login-tablist">
+                <form method="post" action="loginPage">
+                    <input type="text" id="u-id" placeholder="아이디">
+                    <input type="password" id="u-password" placeholder="비밀번호">
+                    <input type="checkbox" id="check-box">
+                    <label for="check-box">로그인 상태 유지</label>
+                    <input type="submit" value="로그인">
+                </form>
+
+                <div class="login-search">
+                    <a href="#"><p>아이디/비밀번호 찾기</p></a>
+                    <a href="#"><p>회원가입</p></a>
+                </div>
+
+                <div class="tempo">
+                    <img src="img/icon/dot.png" alt="경계선">
+                    <span>또는</span>
+                    <img src="img/icon/dot.png" alt="경계선">
+                </div>
+                <p>간편 로그인/회원가입</p>
+                <ul>
+                    <li>
+                        <a href="https://www.kakaocorp.com/page/">
+                            <img src="img/sns_icon/login-page/kakao.svg" alt="카카오로그인">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.naver.com/">
+                            <img src="img/sns_icon/login-page/naver.svg" alt="네이버로그인">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.co.kr/">
+                            <img src="img/sns_icon/login-page/google.svg" alt="구글로그인">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.apple.com/">
+                            <img src="img/sns_icon/login-page/apple.svg" alt="애플로그인">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/">
+                            <img src="img/sns_icon/login-page/facebook.svg" alt="페이스북로그인">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="login-tablist">
+                <form method="post" action="loginPage">
+                    <input type="text" id="non-name" placeholder="이름">
+                    <input type="text" id="non-orderNumder" placeholder="주문번호">
+                    <input type="password" id="non-password" placeholder="비밀번호">
+                    <input type="submit" value="주문조회">
+                </form>
+                <a href="#"><p>주문번호/비밀번호 찾기</p></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
